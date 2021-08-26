@@ -20,4 +20,7 @@ b = matrix(mu,1,2)%*%sig%*%matrix(mu,2,1)
 
 e.m = b/a 
 
-print(x)
+rep = as.list(c(a, b, x, e.m, vol.m,sig),all.names=T)
+names(rep)<-c("a", "b", "x", "return","Volatilité du Pf", "sigma^-1")
+
+print(rep)
