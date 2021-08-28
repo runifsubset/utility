@@ -1,20 +1,15 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # CRAA Utility
 
-Utility function -- Ce petit exemple pour simuler le cas d'une fonction d'utilité CRRA : $U(x) = \frac{x^{\gamma}}{\gamma}$
+Utility function -- Ce petit exemple pour simuler le cas d'une fonction d'utilitï¿½ CRRA : $U(x) = \frac{x^{\gamma}}{\gamma}$
 
 avec $\gamma \in [ -2 ; 1[$ et $x^* = 75\%$.
 
-Les dynamiques des actifs du portefeuille sont données par :
+Les dynamiques des actifs du portefeuille sont donnï¿½es par :
 
-\[
+$$
 dS_t = 0.06S_t \quad dt + 02 St \quad dW_t\\
 dB_t = 0.03B_t \quad dt
-\]
+$$
 
 
 ```{r message=TRUE, warning=FALSE, paged.print=TRUE}
