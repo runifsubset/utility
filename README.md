@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # CRAA Utility
 
 Utility function -- Ce petit exemple pour simuler le cas d'une fonction d'utilité CRRA : $U(x) = \frac{x^{\gamma}}{\gamma}$
