@@ -6,10 +6,10 @@ avec $\gamma \in [ -2 ; 1[$ et $x^* = 75\%$.
 
 Les dynamiques des actifs du portefeuille sont donn�es par :
 
-\[
+\\[
     dS_t = 0.06S_t \quad dt + 02 St \quad dW_t\\
     dB_t = 0.03B_t \quad dt
-\]
+\\]
 
 
 ```{r message=TRUE, warning=FALSE, paged.print=TRUE}
